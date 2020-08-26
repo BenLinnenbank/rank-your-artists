@@ -27,14 +27,3 @@ export function AddArtist() {
     }
 }
 
-
-// {artists.map((artist, index) => (
-//     <div className="box">
-//         <button className="button" onClick={() => playTrack(index)}>
-//             {currentTrackName === artist.name && isPlaying ? <FontAwesomeIcon icon={faPause} /> : <FontAwesomeIcon icon={faPlay} />}
-//         </button>
-//         <div className="song-title">
-//             {artist.name}
-//         </div>
-//     </div>
-// ))}
